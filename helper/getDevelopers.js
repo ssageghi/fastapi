@@ -26,7 +26,7 @@ module.exports = function getDevelopers(FETCH_URL) {
 
           const hasSponsor = {
             sponsorUrl: $(el).find("a[aria-label^=Sponsor]").attr("href")
-              ? "https://github.com/" +
+              ? "https://github.com" +
                 $(el).find("a[aria-label^=Sponsor]")?.attr("href")
               : undefined,
           };

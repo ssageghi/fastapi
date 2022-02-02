@@ -50,7 +50,7 @@ module.exports = function getRepos(FETCH_URL) {
           return {
             author,
             reponame,
-            repourl: "https://github.com/" + repourl,
+            repourl: "https://github.com" + repourl,
             repodesc,
             language,
             langcolor,
